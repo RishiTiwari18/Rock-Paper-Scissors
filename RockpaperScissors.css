@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 380px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.game-container h1 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.choice {
+    background: #f1f1f1;
+    border: none;
+    border-radius: 12px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.choice span {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.choice:hover {
+    background: lch(39.5% 69.47 343.86);
+    color: white;
+    transform: scale(1.1);
+}
+
+.result {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.score {
+    background: #f8f8f8;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.score h3 {
+    font-size: 16px;
+    color: #555;
+}
+
+.score span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}

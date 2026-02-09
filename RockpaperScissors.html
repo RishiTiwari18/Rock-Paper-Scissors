@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="RockpaperScissors.css"/>
+
+</head>
+<body>
+     <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+
+
+    <div class="game-container">
+        <h1>✊ Rock ✋ Paper ✌ Scissors</h1>
+
+        <div class="choices">
+            <button id="rock" class="choice rock">✊<span>Rock</span></button>
+            <button id ="paper" class=" choice paper">✋<span>Paper</span></button>
+            <button id =" scissors" class=" choice scissors">✌<span>Scissors</span></button>
+        </div>
+
+        <div class="result">
+            <p id="msg">Make your move!</p>
+        </div>
+
+        <div class="score-board">
+            <div class="score">
+                <h3 >You</h3>
+
+                <span id="user-score">0</span>
+             
+            </div>
+            <div class="score">
+                <h3 >Computer</h3>
+                <span id="comp-score">0</span>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="RockpaperScissors.js"></script>
+</body>
+</html>
